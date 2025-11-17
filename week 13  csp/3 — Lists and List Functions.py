@@ -97,10 +97,15 @@ print(type(tuple))
 list_of_food = ["burger", "wings", "boneless_wings", "fries", "soda"]
 # Print the second and last item.
 print(list_of_food[-1])
+print(list_of_food[3])
 # Add a new item using .append().
-
+list_of_food.append( "smub_burger")
+print(list_of_food)
 # Remove the first item using .pop(0).
-
+popped_item = list_of_food.pop(0)
+print(popped_item)
+print(list_of_food)
 # Reverse your list using .reverse().
-
+list_of_food.reverse()
+print(list_of_food)
 # Create a list of 3 lists (matrix), and access the middle element.
