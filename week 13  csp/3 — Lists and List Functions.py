@@ -49,6 +49,31 @@ popped_item = list_of_items.pop()
 print(list_of_items)
 list_of_items.extend (range(1001,2001))
 print(list_of_items)
+
+#why use a list
+#instead of creating seperate variabkes
+#for each item, we can store them in a list
+#this makes our job easier
+# this makes managing the complexticyt of our code easier
+#when we need to manage multiple items
+# performance task answer 
+#sets and tuples 
+# sets and tuples are also part of the collections
+#family in python 
+#sets examples:
+set1 = {1,2,3,4,5}
+set2 = ("apple","banana","cherry")
+print(set1) 
+print(set2)
+print(type(set1))
+set_with_duplicates= {1,2,3,4,4,5}
+print(set_with_duplicates) 
+print(3 in set1)
+print(6 in set1)
+tuple1 = (1,2,3,4,5)
+tuple2 = ("apple","banana","cherry")
+print(type(tuple))
+#why use tuple instead of lists, tuples are immutable, meaning they cannot be changed after creation. 
 # Examples:
 
 # my_list = ['apple', 'banana', 'cherry']
