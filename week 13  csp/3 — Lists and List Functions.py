@@ -94,9 +94,9 @@ print(type(tuple))
 # Practice Problems:
 
 # Create a list with 5 of your favorite foods.
-
+list_of_food = ["burger", "wings", "boneless_wings", "fries", "soda"]
 # Print the second and last item.
-
+print(list_of_food[-1])
 # Add a new item using .append().
 
 # Remove the first item using .pop(0).
